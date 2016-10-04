@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		EEA882471DA42187009BF772 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA882461DA42187009BF772 /* AppDelegate.swift */; };
-		EEA882491DA42188009BF772 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA882481DA42188009BF772 /* ViewController.swift */; };
-		EEA8824C1DA42188009BF772 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA8824A1DA42188009BF772 /* Main.storyboard */; };
+		EEA882491DA42188009BF772 /* WorldTimeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA882481DA42188009BF772 /* WorldTimeTableViewController.swift */; };
 		EEA8824E1DA42188009BF772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEA8824D1DA42188009BF772 /* Assets.xcassets */; };
 		EEA882511DA42188009BF772 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA8824F1DA42188009BF772 /* LaunchScreen.storyboard */; };
+		EEA882591DA42200009BF772 /* TimeZoneTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA882581DA42200009BF772 /* TimeZoneTableViewController.swift */; };
+		EEA8825B1DA42250009BF772 /* ClockCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA8825A1DA42250009BF772 /* ClockCell.swift */; };
+		EEA8825D1DA42285009BF772 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA8825C1DA42285009BF772 /* ClockView.swift */; };
+		EEA8825F1DA422A5009BF772 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA8825E1DA422A5009BF772 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EEA882431DA42187009BF772 /* GlobalTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlobalTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEA882461DA42187009BF772 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EEA882481DA42188009BF772 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EEA8824B1DA42188009BF772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEA882481DA42188009BF772 /* WorldTimeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTimeTableViewController.swift; sourceTree = "<group>"; };
 		EEA8824D1DA42188009BF772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEA882501DA42188009BF772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEA882521DA42188009BF772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEA882581DA42200009BF772 /* TimeZoneTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeZoneTableViewController.swift; sourceTree = "<group>"; };
+		EEA8825A1DA42250009BF772 /* ClockCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockCell.swift; sourceTree = "<group>"; };
+		EEA8825C1DA42285009BF772 /* ClockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		EEA8825E1DA422A5009BF772 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				EEA882461DA42187009BF772 /* AppDelegate.swift */,
-				EEA882481DA42188009BF772 /* ViewController.swift */,
-				EEA8824A1DA42188009BF772 /* Main.storyboard */,
+				EEA882481DA42188009BF772 /* WorldTimeTableViewController.swift */,
+				EEA882581DA42200009BF772 /* TimeZoneTableViewController.swift */,
+				EEA8825A1DA42250009BF772 /* ClockCell.swift */,
+				EEA8825C1DA42285009BF772 /* ClockView.swift */,
+				EEA8825E1DA422A5009BF772 /* Main.storyboard */,
 				EEA8824D1DA42188009BF772 /* Assets.xcassets */,
 				EEA8824F1DA42188009BF772 /* LaunchScreen.storyboard */,
 				EEA882521DA42188009BF772 /* Info.plist */,
@@ -124,9 +133,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEA8825F1DA422A5009BF772 /* Main.storyboard in Resources */,
 				EEA882511DA42188009BF772 /* LaunchScreen.storyboard in Resources */,
 				EEA8824E1DA42188009BF772 /* Assets.xcassets in Resources */,
-				EEA8824C1DA42188009BF772 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEA882491DA42188009BF772 /* ViewController.swift in Sources */,
+				EEA882491DA42188009BF772 /* WorldTimeTableViewController.swift in Sources */,
+				EEA8825D1DA42285009BF772 /* ClockView.swift in Sources */,
+				EEA882591DA42200009BF772 /* TimeZoneTableViewController.swift in Sources */,
+				EEA8825B1DA42250009BF772 /* ClockCell.swift in Sources */,
 				EEA882471DA42187009BF772 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,14 +157,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EEA8824A1DA42188009BF772 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EEA8824B1DA42188009BF772 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EEA8824F1DA42188009BF772 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
